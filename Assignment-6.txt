@@ -1,0 +1,23 @@
+1)What is collection in java
+Ans: Collections in java is a framerwork or an API which stores and manipulates a group of objects.
+2)Difference between Collection and collections in java?
+Ans:Collection is an interface in java whereas collections are utility class in java and both of them can be found in java.util.package.
+collection is an interface with static and abstract methods whereas collections operate only with static methods.
+3)What are the advantages of collection framework?
+Ans: It will reduces the programming effort by using some interfaces with inbuilt datastructures like ArrayList (it follows dynamic array data structures) by default and linked list interface (it follows double linked list data structures) by default.
+4)Explain the various interfaces used in the Collection framework.
+Ans: There are 3 interfaces we have to use in collection framework they are:
+1)List: In list there are 1)ArrayList 2)LinkedList
+2)queue: In queue there are 1)Arraydequeue 2)priorityqueue
+3)set: In set there are 1)TreeSet 2)Hashset 3)LinkedHashSet.
+5)Differentiate between List and Set in Java?
+Ans: The list elements are ordered elements while coming to set it is an unordered elements and in set duplicates also allowed while coming to set there is no permission of duplicate elements.
+6)What is the Differentiate between Iterator and ListIterator in Java.
+Ans: The Iterator and listiterator is used to iterate over the elements in collection, the main difference is by using iterator it can iterate only in forward direction whereas listiterator can iterate forward and backword also.
+7)What is the Differentiate between Comparable and Comparator?
+Ans: Comparable: The Comparable interface supports natural sorting order(By default it is Ascending order)
+     Comparator: The Comparator interface supports customized sorting order(We need to sort either ascending or descending).
+9)Distinguish between a hashmap and a Treemap?
+Ans: Hashmap is the implementation of Map and Treemap also implementation of map the main difference of these two is hashmap doesn't maintain any order whereas treemap maintains Ascending order and hashmap will always dominate garbage collector.
+10)Define LinkedHashMap in Java?
+Ans: LinkedHashMap is the implementation of map it inherits hashmap class and it maintains insertion order.
